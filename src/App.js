@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import SecureRouter from "layouts/SecureRouter";
 import DashboardPage from "pages/DashboardPage";
 import AddUserPage from "pages/AddUserPage";
@@ -10,10 +10,11 @@ import PassportPage from "pages/PassportPage";
 import AppProvider from "Data/ContextData";
 
 const App = () => {
-  
+
   return (
-      <AppProvider>
-        <BrowserRouter>
+    <AppProvider>
+      <BrowserRouter>
+        <Router basename="/Mahalla">
           <Routes>
             <Route path="/" element={<SignInPage />} />
             <Route path="/dashboard" element={<SecureRouter>{<DashboardPage />}</SecureRouter>} />
@@ -23,8 +24,9 @@ const App = () => {
             <Route path="/signup" element={<SignUpPage />} />
             <Route path="/passport" element={<PassportPage />} />
           </Routes>
-        </BrowserRouter>
-      </AppProvider>
+        </Router>
+      </BrowserRouter>
+    </AppProvider>
   );
 }
 
