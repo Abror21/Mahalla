@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mahalla/static/css/main.137c4c6b.css",
+    "main.js": "/Mahalla/static/js/main.8e0dd4ed.js",
+    "index.html": "/Mahalla/index.html",
+    "main.137c4c6b.css.map": "/Mahalla/static/css/main.137c4c6b.css.map",
+    "main.8e0dd4ed.js.map": "/Mahalla/static/js/main.8e0dd4ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137c4c6b.css",
+    "static/js/main.8e0dd4ed.js"
+  ]
+}
