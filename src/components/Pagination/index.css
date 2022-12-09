@@ -1,0 +1,25 @@
+.MuiPagination-ul{
+    display: flex;
+    justify-content: end;
+    align-items: stretch !important;
+    gap: 8px;
+}
+.MuiPagination-ul .MuiButtonBase-root,
+.MuiPagination-ul .MuiPaginationItem-root {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.2px;
+  color: #a2a0b3;
+  border: 1px solid #A2A0B3;
+  border-radius: 0;
+  margin: 0;
+}
+.MuiPagination-ul div.MuiPaginationItem-root{
+    height: 100%;
+}
+.MuiPagination-ul .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: #7F7ADD;
+    color: white;
+}

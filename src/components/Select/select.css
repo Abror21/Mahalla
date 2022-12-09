@@ -1,0 +1,32 @@
+.select__wrapper {
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+}
+.select__wrapper::after {
+  content: "";
+  transform: rotate(45deg) translateY(-50%);
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 6px;
+  height: 6px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: var(--white);
+  pointer-events: none;
+}
+.select {
+  padding: 12px;
+  width: 100%;
+  color: #a2a0b3;
+  border: 1px solid #3c3971;
+  outline: none;
+  font-family: var(--Inter);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

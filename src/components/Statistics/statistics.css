@@ -1,0 +1,7 @@
+
+.statistics__left svg path:hover {
+    fill: #4785FE;
+}
+.statistics__left svg path{
+    cursor: pointer;
+}

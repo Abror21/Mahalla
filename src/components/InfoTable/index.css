@@ -1,0 +1,26 @@
+.info-table table {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+.info-table tbody tr:nth-child(odd) {
+  background-color: #29265a;
+}
+.info-table table th,
+.info-table tbody tr td:first-child {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #ffffff;
+}
+.info-table table th,
+.info-table table td{
+  text-align: left;
+  padding: 14px;
+}
+.info-table table td {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  color: #a2a0b3;
+}
