@@ -16,7 +16,7 @@ const App = () => {
       <BrowserRouter>
         <Router basename="/Mahalla">
           <Routes>
-            <Route path="/" element={<SignInPage />} />
+            <Route index path="/" element={<SignInPage />} />
             <Route path="/dashboard" element={<SecureRouter>{<DashboardPage />}</SecureRouter>} />
             <Route path="/add-user" element={<SecureRouter>{<AddUserPage />}</SecureRouter>} />
             <Route path="/classification" element={<SecureRouter>{<AddClassificationPage />}</SecureRouter>} />
